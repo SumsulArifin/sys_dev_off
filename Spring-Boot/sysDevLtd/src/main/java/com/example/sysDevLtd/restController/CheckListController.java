@@ -1,12 +1,13 @@
 package com.example.sysDevLtd.restController;
 
 import com.example.sysDevLtd.entity.model.CheckList;
-import com.example.sysDevLtd.entity.dto.CheckListDTO;
+import com.example.sysDevLtd.entity.request.CheckListDTO;
 import com.example.sysDevLtd.service.CheckListService;
 import com.example.sysDevLtd.utils.MessageResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -23,7 +24,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/checkList")
 @CrossOrigin(originPatterns = {"*"})
 public class CheckListController {
 

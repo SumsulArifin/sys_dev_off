@@ -1,7 +1,7 @@
 package com.example.sysDevLtd.service;
 
 import com.example.sysDevLtd.entity.model.CheckList;
-import com.example.sysDevLtd.entity.dto.CheckListDTO;
+import com.example.sysDevLtd.entity.request.CheckListDTO;
 import com.example.sysDevLtd.utils.MessageResponse;
 import org.springframework.stereotype.Component;
 

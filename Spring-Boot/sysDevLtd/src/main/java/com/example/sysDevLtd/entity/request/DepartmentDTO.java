@@ -1,4 +1,4 @@
-package com.example.sysDevLtd.entity.dto;
+package com.example.sysDevLtd.entity.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

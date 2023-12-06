@@ -1,9 +1,7 @@
 package com.example.sysDevLtd.service;
-import com.example.sysDevLtd.entity.dto.DepartmentDTO;
+import com.example.sysDevLtd.entity.request.DepartmentDTO;
 import com.example.sysDevLtd.entity.model.Department;
 import com.example.sysDevLtd.repository.DepartmentRepository;
-import com.example.sysDevLtd.utils.Message;
-import com.example.sysDevLtd.utils.MessageResponse;
 import com.example.sysDevLtd.utils.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

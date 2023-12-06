@@ -1,7 +1,6 @@
 package com.example.sysDevLtd.service;
-import com.example.sysDevLtd.entity.dto.DepartmentDTO;
+import com.example.sysDevLtd.entity.request.DepartmentDTO;
 import com.example.sysDevLtd.entity.model.Department;
-import com.example.sysDevLtd.utils.MessageResponse;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

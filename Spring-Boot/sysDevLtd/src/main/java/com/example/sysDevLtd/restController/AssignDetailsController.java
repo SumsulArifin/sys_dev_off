@@ -1,8 +1,6 @@
 package com.example.sysDevLtd.restController;
 
 import com.example.sysDevLtd.entity.model.AssignDetails;
-import com.example.sysDevLtd.entity.model.Assign_Master;
-import com.example.sysDevLtd.entity.model.Department;
 import com.example.sysDevLtd.service.AssignDetailsService;
 import com.example.sysDevLtd.utils.MessageResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/a_d")
+@RequestMapping("/assignDetails")
 @CrossOrigin(originPatterns = {"*"})
 public class AssignDetailsController {
     @Autowired

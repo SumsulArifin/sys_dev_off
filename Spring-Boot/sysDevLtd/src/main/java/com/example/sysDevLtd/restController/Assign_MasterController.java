@@ -1,12 +1,8 @@
 package com.example.sysDevLtd.restController;
 
-import com.example.sysDevLtd.entity.dto.DepartmentDTO;
 import com.example.sysDevLtd.entity.model.Assign_Master;
 import com.example.sysDevLtd.entity.model.Department;
-import com.example.sysDevLtd.service.AssignDetailsService;
-import com.example.sysDevLtd.service.Assign_MasterService;
 import com.example.sysDevLtd.service.Assign_MasterServiceImpl;
-import com.example.sysDevLtd.utils.MessageResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

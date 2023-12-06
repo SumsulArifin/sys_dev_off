@@ -1,8 +1,7 @@
 package com.example.sysDevLtd.restController;
-import com.example.sysDevLtd.entity.dto.DepartmentDTO;
+import com.example.sysDevLtd.entity.request.DepartmentDTO;
 import com.example.sysDevLtd.entity.model.Department;
 import com.example.sysDevLtd.service.DepartmentService;
-import com.example.sysDevLtd.utils.MessageResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
